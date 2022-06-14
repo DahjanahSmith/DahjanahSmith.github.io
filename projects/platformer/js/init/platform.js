@@ -28,8 +28,10 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        
-        /*
+        createPlatform (0, 150);              // normal platform 
+        createPlatform (0, 470, 0.4)         // small horizontal platform (40% of the normal width)
+        createPlatform (0, 700, 0.4, 10)    // tall vertical wall (40% the normal width and 10x the height)
+        /* 
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
          * bottom of the game.
