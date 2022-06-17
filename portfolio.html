@@ -45,7 +45,7 @@
             width: 200px;
         }
         /* portfolio styles */
-        .content {  h1
+         .content {  h1;
              color: black;
          }
          
@@ -70,9 +70,14 @@
              color: #454545;
          }
 
+        .portfolio { ul;
+        border:4px rgba(152, 156, 154, 0.966) ridge;
+        background:rgb(12, 8, 39);
+        }
+        .content {
             flex: 1;
             padding: 15px;
-        }
+            }
         #interests {
             border: 4px rgba(152, 156, 154, 0.966) ridge;
             padding: 8px;
@@ -80,24 +85,22 @@
         h2, h3 {
             margin: 0px;
         }
-      
       </style>
       </head>
-    
          <body>
-      <div id="all-contents">
+            <div id="all-contents">
             <h1> Portfolio </h1>
             <!--nav stuff here...-->
             <nav
-            /* navigation menu */
-            nav {
-                background: rgb(12, 8, 39);
-               margin: 0 auto;
-               margin-bottom: 20px;
-                display: flex;
-                padding: 10px;
-                border: 4px rgba(152, 156, 154, 0.966) ridge;
-            }
+            <ul id="nav-ul">
+                <li class="nav-li">
+                <a class="nav-a" href="index.html">Home</a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-a" href="portfolio.html">Portfolio</a>
+              </li>
+          </ul>
+       </div>
         </nav>
             <main>
                 <div class="content">
@@ -109,17 +112,7 @@
                     <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
 
                 </ul>
-            </div>
+                </div>
             </main>
-
-            <ul id="nav-ul">
-               <li class="nav-li">
-               <a class="nav-a" href="index.html">Home</a>
-             </li>
-             <li class="nav-li">
-               <a class="nav-a" href="portfolio.html">Portfolio</a>
-             </li>
-         </ul>
-      </div>
-    </body>
-</html
+          </body>
+        </html
