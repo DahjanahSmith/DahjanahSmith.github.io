@@ -28,8 +28,8 @@
         
 
         createCannon("top", 450); // a cannon on the top of the screen, located at x = 450
-        createCannon("left", 0, 800); // a cannon on the left side of the screen, located at y = 300, with a 1 second delay (1000ms)
-        createCannon("right", 0, 700 )
+        createCannon("left", 310, 800); // a cannon on the left side of the screen, located at y = 300, with a 1 second delay (1000ms)
+        createCannon("right", 650, 550 )
         // example: 
         createCannon("top", 450);
         

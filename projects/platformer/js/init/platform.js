@@ -28,10 +28,10 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        createPlatform (0, 620 ,0.5)
-        createPlatform (100, 250, 0.5);              // normal platform   /      
+        createPlatform (0, 620, 0.5)
+        createPlatform (100, 270, 0.7);              // normal platform   /      
         createPlatform (330, 550, 0.8)
-        createPlatform (0, 450, 0.7)
+        createPlatform (0, 450, 0.8)
         createPlatform (400, 350, 0.5) 
           // tall vertical wall (40% the normal width and 10x the height)
         /* 
