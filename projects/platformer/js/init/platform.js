@@ -28,11 +28,12 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        createPlatform (0, 100, 0.4);              // normal platform 
-        createPlatform (0, 180, 1.0 );        
-        createPlatform (0, 275, 1.6)    // small horizontal platform (40% of the normal width)
-        createPlatform (0, 399, 1.0)
-        createPlatform (0, 500, 0.5 )   // tall vertical wall (40% the normal width and 10x the height)
+        createPlatform (0, 620 ,0.5)
+        createPlatform (100, 250, 0.5);              // normal platform   /      
+        createPlatform (330, 550, 0.8)
+        createPlatform (0, 450, 0.7)
+        createPlatform (400, 350, 0.5) 
+          // tall vertical wall (40% the normal width and 10x the height)
         /* 
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
