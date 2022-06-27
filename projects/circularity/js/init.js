@@ -25,7 +25,7 @@ var init = function (window) {
         // TODO 2 : Create a function that draws a circle 
         
 
-        // TODO 3 / 7 : Call the drawCircle() function 
+        // TODO 3 / 8 : Call the drawCircle() function 
 
 
         ////////////////////////////////////////////////////////////
@@ -61,11 +61,11 @@ var init = function (window) {
                 circle.x = 0;
             }
             
-            // TODO 6 : YOUR CODE STARTS HERE //////////////////////
+            // TODO 7 : YOUR CODE STARTS HERE //////////////////////
             
 
 
-            // YOUR TODO 6 CODE ENDS HERE //////////////////////////
+            // YOUR TODO 7 CODE ENDS HERE //////////////////////////
         }
         
         /////////////////////////////////////////////////////////////
